@@ -1,0 +1,21 @@
+{
+  "folders": [
+	{
+		"path": "../Web-Component"
+	},
+	{
+		"path": "../My-owsm-Portfolio"
+	},
+	{
+		"path": "../aboutMe"
+	},
+	{
+		"path": "../C_Workspace"
+	}
+],
+  "settings": {
+    "githubPullRequests.ignoredPullRequestBranches": ["master"],
+    "liveServer.settings.multiRootWorkspaceName": "My-owsm-Portfolio",
+    "liveServer.settings.port": 5501
+  }
+}
