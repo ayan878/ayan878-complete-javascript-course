@@ -103,10 +103,13 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+
 }
 
 .btn:hover {
   background-color: #ccc;
+  border:solid 2px #fff;
+  border-radius: 4px;
 }
 
 .message {
