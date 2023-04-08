@@ -18,10 +18,13 @@ TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.*/
 
 const massJohn=78;
-const massMark=95;
+const massMark=92;
 
 const heightJohn=1.69;
-const heightMark=1.88;
+const heightMark=1.95;
 
 const BMIJohn= massJohn/heightJohn**2;
+console.log(BMIJohn);
+
 const BMIMark=massMark/heightMark**2;
+console.log(BMIMark);
