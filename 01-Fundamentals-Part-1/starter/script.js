@@ -17,6 +17,8 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.*/
 
+function data1()
+{
 const massJohn=78;
 const massMark=92;
 
@@ -28,3 +30,9 @@ console.log(BMIJohn);
 
 const BMIMark=massMark/heightMark**2;
 console.log(BMIMark);
+
+const markHigherBMI= BMIMark>BMIJohn;
+console.log(markHigherBMI);
+
+}
+data1();
